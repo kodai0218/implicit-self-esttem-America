@@ -1,5 +1,5 @@
 //画像パス
-var repo_site = "https://kodai0218.github.io/implicit-self-esteem-America/";
+var repo_site = "https://kodai0218.github.io/implicit-self-esttem-America/";
 
 // 乱数
 var l = 8;
@@ -71,19 +71,19 @@ var name_get = {
 //教示文を読んで入力してもらう
 var iat_instruction_test = {
   type: "html-keyboard-response",
-  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture03.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>Practice.</p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word in the middle of the screen fits into the <b> 'Good' </b>or<b> 'Bug' </b>category in the upper left corner, press the<b> 'E' </b>key,or if you think the word in <br>the upper right corner fits into the<b> 'Bad' </b>category,Press the<b> 'I'</b> key.</p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X(wrong) will appear in the center of the screen, so press the opposite key.</br>Press the <b> spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
+  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture1.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>Practice.</p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word in the middle of the screen fits into the <b> 'Good' </b>or<b> 'Bug' </b>category in the upper left corner, press the<b> 'E' </b>key,or if you think the word in <br>the upper right corner fits into the<b> 'Bad' </b>category,Press the<b> 'I'</b> key.</p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X(wrong) will appear in the center of the screen, so press the opposite key.</br>Press the <b> spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
   choices: ["space"]
 };
 
 var iat_instruction = {
   type: "html-keyboard-response",
-  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>We're on.</p>"+"<p style = 'font-size: 2em;'><b>The categories on the left and right have changed.</b></p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word in the middle of the screen fits into the<b> 'Good' </b> or <b> 'Self' </b>category in the upper left corner, press<b> 'E'. </b><br>If you think the word in the upper right corner fits into the<b> 'Bad' </b>category, press<b> 'I'. </b></p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X (wrong) will appear in the center of the screen, so press the opposite key.</br>Press the<b> spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
+  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture2.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>We're on.</p>"+"<p style = 'font-size: 2em;'><b>The categories on the left and right have changed.</b></p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word in the middle of the screen fits into the<b> 'Good' </b> or <b> 'Self' </b>category in the upper left corner, press<b> 'E'. </b><br>If you think the word in the upper right corner fits into the<b> 'Bad' </b>category, press<b> 'I'. </b></p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X (wrong) will appear in the center of the screen, so press the opposite key.</br>Press the<b> spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
   choices: ["space"]
 };
 
 var iat_brakegood = {
   type: "html-keyboard-response",
-  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>Break time.</p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word displayed in the center of the screen falls into the category of <b> 'Good' </b>or<b> 'Self' </b>in the upper left corner, press the<b> 'E' </b> key, <br>If you think you fit into the<b> 'Bad' </b> category in the upper right hand corner, press the <b>'I'</b> key.</p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X (wrong) will appear in the center of the screen, so press the opposite key.</br>Press the <b>spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
+  stimulus:"<img src='https://kodai0218.github.io/implicit-self-esteem-America/Picture3.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>Break time.</p>"+"<p>This is a keyboard-based word classification task.</p>"+"<p>If you think the word displayed in the center of the screen falls into the category of <b> 'Good' </b>or<b> 'Self' </b>in the upper left corner, press the<b> 'E' </b> key, <br>If you think you fit into the<b> 'Bad' </b> category in the upper right hand corner, press the <b>'I'</b> key.</p>"+ "<p><b>The categories on the left and right are fixed, and the words in the middle change.</b></p>"+"<p>If you make a mistake, an X (wrong) will appear in the center of the screen, so press the opposite key.</br>Press the <b>spacebar </b>to start.</p>"+"<p style = 'font-size: 1.5em;'>When a word appears, please answer it as soon as possible.</p>",
   choices: ["space"]
 };
 
