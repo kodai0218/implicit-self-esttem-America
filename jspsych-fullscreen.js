@@ -42,7 +42,7 @@ jsPsych.plugins.fullscreen = (function() {
         description: 'The length of time to delay after entering fullscreen mode before ending the trial.'
       },
     }
-  }
+  };
 
   plugin.trial = function(display_element, trial) {
 
