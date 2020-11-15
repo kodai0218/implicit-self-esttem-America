@@ -31,18 +31,6 @@ jsPsych.data.addProperties({
   condition: random
 });
 
-var ic = {
-    type: 'survey-multi-select',
-    questions: [{
-        prompt: "<span style = 'font-size: 14pt;'><b>Please check the box if you agree to participate in the experiment after carefully reading and understanding the above information. If you do not agree, please close the window.</b></span>",
-        options: ["<span style = 'font-size: 18pt; text-align: center;'>I agree to participate in the research after reading and understanding the instructions carefully.</span>"],
-        required: true,
-        name: 'approval'
-    }],
-    preamble: "<div style = 'text-align: center'><h1>Request for Corporation about the Values Survey</h1></div>"+"<div><br></div>"+"<div style = 'font-size: 1.5em; text-align: center'><p><b>You will not be able to complete the answer on your smartphone.<br><br>Please access the site on a computer with a keyboard. (Laptops are acceptable.)</b><p></div>"+
-    "<div style = 'font-size: 14pt; text-align: left;'><br><p>Kwansei Gakuin University　Hiroshi Shimizu</br></br>The purpose of this survey is to survey you about your usual thoughts. Please allow approximately 15 minutes for a response.</br>If you lose your internet connection while answering the question, you will not be able to finish the question correctly. Please answer at a place with a good connection.</p>"+"<p> All responses will be treated as anonymous, so no personal information will be made public.</br></br>Please contact the investigator if you have any questions about this study or if you encounter any problems.</p></div>",
-    button_label: 'Next'
-};
 
 var pc_check = {
   type: "html-keyboard-response",
@@ -862,7 +850,7 @@ var endmessage = {
 
 /* 実験の提示の順番 */
 var timeline = [];
-timeline.push(ic);
+
 timeline.push(pc_check);
 
 
