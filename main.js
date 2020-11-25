@@ -44,6 +44,7 @@ var name_get = {
     questions: [
           {prompt: '<p>We ask you to fill in your name as we need it for the next experiment.</p>'+'<p>We will take great care to protect your privacy.</p>'+'Please enter your <b>last name</b> (e.g.<b> Davis<b/> if you are Noah Davis).', name: 'name_up', required:'True'},
           {prompt: 'Please enter your <b>first </b>name (e.g., <b>Noah</b> if you are Noah Davis).', name: 'name_do', required:'True'},
+          {prompt: 'Please enter your <b>initials</b> (e.g., <b>ND</b> if you are Noah Davis).',required:'TRUE'},
         ],
     button_label: 'Next',
     on_finish: function(data){
