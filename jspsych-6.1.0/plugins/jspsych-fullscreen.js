@@ -23,7 +23,7 @@ jsPsych.plugins.fullscreen = (function() {
       message: {
         type: jsPsych.plugins.parameterType.STRING,
         pretty_name: 'Message',
-        default: '<p>次へをクリックするとと、画面がフルスクリーンモードへと切り替わります。</p>',
+        default: '<p>When you click Next, the screen will switch to full-screen mode.</p>',
         array: false,
         description: 'HTML content to display above the button to enter fullscreen mode.'
       },
