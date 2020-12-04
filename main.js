@@ -820,29 +820,17 @@ var trial03_main02 = {
   randomize_order: true
 };
 
+
+
 var experimentend = {
     type: 'instructions',
-    pages: ["<p>That's all for the assignment. Thank you for  your corporation.</p>"+"<p>次へを押していただくと、クラウドワークスの支払コード欄に記入していただく文字列が表示されます。<b>（ここの文章どうしましょう）</b></p>"
-    ],
+    pages: ["<p> Moving on to the next assignment.</p>"+"<p>To continue, please press the "Next".</p>"
+  ],
     allow_backward: false,
     show_clickable_nav: true,
     button_label_next: "Next",
-    on_finish: function() {
-    firebase.database().ref(exp_id).set({
-      data: jsPsych.data.get().values()
-    })
-   }
 };
 
-var endmessage = {
-    type: 'instructions',
-    pages: ["<p>調査にご協力いただき、どうもありがとうございました。調査終了後、以下の8桁の文字列をクラウドワークスの支払コード欄に記入して作業を完了させてください。</p>"+"<p>入力間違い防止のため、必ずコピー＆ペーストしてください。正しく記入されたことが確認できた場合に、報酬をお支払いします。</p><b>ここの文章悩んでます</b>"+ r_num +"<p>ただし、上記コードを間違いなく納品して下さっても、ご回答の性別がクラウドワークスでのご登録と異なる場合、</br>いくつかの項目へのご回答が不適切だった場合には、謝礼をお支払いできませんので，あしからずご了承下さい</p>" + "<p>「次へ」をクリックして画面が白転してから、ウィンドウを閉じてください。</p>"
-    ],
-    allow_backward: false,
-    show_clickable_nav: true,
-    button_label_next: "Next"
-
-};
 
 
 
