@@ -884,4 +884,3 @@ timeline.push({
 
 
 timeline.push(experimentend);
-timeline.push(endmessage);
