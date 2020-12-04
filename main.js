@@ -824,7 +824,7 @@ var trial03_main02 = {
 
 var experimentend = {
     type: 'instructions',
-    pages: ["<p> Moving on to the next assignment.</p>"+"<p>To continue, please press the "Next".</p>"
+    pages: ["<p> Moving on to the next assignment.</p>"+"<p>To continue, please press the Next.</p>"
   ],
     allow_backward: false,
     show_clickable_nav: true,
